@@ -1,0 +1,62 @@
+﻿@model IEnumerable<VoterSearcher.Models.VoterInfo>
+
+<div id="searchResultList" class="searchResult" border="1">
+    @if (Model != null)
+    {
+        <h3>Search Results</h3>
+        
+        @*<div class="pagedList">
+            @Html.PagedListPager(Model, page => Url.Action("Index", new { page, SortBy = Request["SortBy"] }),
+           PagedListRenderOptions.EnableUnobtrusiveAjaxReplacing(PagedListRenderOptions.ClassicPlusFirstAndLast,
+           new AjaxOptions() { HttpMethod = "GET", UpdateTargetId = "searchResultList" }))
+        </div>*@
+
+
+        <table id="tblSearchResult" border="1">
+            @*<th>@Ajax.ActionLink("First Name", "Index", new { SortBy = "FirstName", @class = "ActionLinkClass" }, new AjaxOptions { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "searchResultList" })</th>
+            <th>@Ajax.ActionLink("Maternal Name", "Index", new { SortBy = "MaternalName" }, new AjaxOptions { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "searchResultList" })</th>
+            <th>@Ajax.ActionLink("Last Name", "Index", new { SortBy = "LastName" }, new AjaxOptions { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "searchResultList" })</th>
+            <th>@Ajax.ActionLink("Birth Date", "Index", new { SortBy = "BirthDate" }, new AjaxOptions { HttpMethod = "GET", InsertionMode = InsertionMode.Replace, UpdateTargetId = "searchResultList" })</th>
+            <th>Address</th>
+            <th>Civil Status</th>*@
+
+            <thead>
+                <tr>
+                    <th>Last Name</th>
+                    <th>Maternal Name</th>
+                    <th>First Name</th>
+                    <th>Birth Date</th>
+                    <th>Address</th>
+                    <th>Civil Status</th>
+                </tr>
+            </thead>
+
+            @foreach (VoterSearcher.Models.VoterInfo voter in Model)
+            {
+                <tr>
+                    <td>
+                        @voter.LastName
+                    </td>
+                    <td>
+                        @voter.MaternalName
+                    </td>
+                    <td>
+                        @voter.FirstName
+                    </td>
+                    <td>
+                        @voter.DateOfBirth.ToString("yyyy-MMM-dd")
+                    </td>
+                    <td>
+                        @voter.Address
+                    </td>
+                    <td>
+                        @voter.CivilStatus
+                    </td>
+
+                </tr>
+            }
+        </table>
+
+
+    }
+</div>

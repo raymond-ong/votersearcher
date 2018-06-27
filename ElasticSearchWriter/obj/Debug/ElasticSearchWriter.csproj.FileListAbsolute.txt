@@ -1,0 +1,16 @@
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\obj\Debug\ElasticSearchWriter.csprojResolveAssemblyReference.cache
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\ElasticSearchWriter.exe.config
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\ElasticSearchWriter.exe
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\ElasticSearchWriter.pdb
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\Elasticsearch.Net.dll
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\Nest.dll
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\Elasticsearch.Net.xml
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\Nest.xml
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\obj\Debug\ElasticSearchWriter.exe
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\obj\Debug\ElasticSearchWriter.pdb
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\ComelecDbLib.dll
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\MySql.Data.dll
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\ComelecDbLib.pdb
+C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\ComelecDbLib.dll.config

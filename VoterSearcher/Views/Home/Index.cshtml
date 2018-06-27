@@ -1,0 +1,157 @@
+﻿@{
+    ViewBag.Title = "Search Voter";
+}
+
+@*<div class="jumbotron">
+    <h1>ASP.NET</h1>
+    <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
+    <p><a href="http://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>*@
+
+@*<div class="row">
+    <div class="col-md-4">
+        <h2>Getting started</h2>
+        <p>
+            ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
+            enables a clean separation of concerns and gives you full control over markup
+            for enjoyable, agile development.
+        </p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Get more libraries</h2>
+        <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Web Hosting</h2>
+        <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
+        <p><a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+    </div>
+</div>*@
+
+@model VoterSearcher.Models.VoterInfo
+
+@*<script type="text/javascript">
+            function setDataTable()
+            {
+                alert("Success!");
+            }
+</script>*@
+
+<h2>Enter Search Details</h2>
+
+@using (Ajax.BeginForm(new AjaxOptions
+{
+    HttpMethod = "get",
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "searchResultList",
+    OnComplete = "setDataTable",
+}))
+{
+    <fieldset>
+        <legend>VoterInfo</legend>
+        <table>
+            <tr>
+                <td>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.FirstName)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.FirstName)
+                    </div>
+                </td>
+
+                <td>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.MaternalName)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.MaternalName)
+                    </div>
+                </td>
+
+                <td>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.LastName)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.LastName)
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.DobYear)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.DobYear)
+                    </div>
+                </td>
+
+                <td>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.DobMonth)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.DobMonth)
+                    </div>
+                </td>
+
+                <td>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.DobDay)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.DobDay)
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <div class="editor-label">
+                        @Html.LabelFor(model => model.Address)
+                    </div>
+                    <div class="editor-field">
+                        @Html.EditorFor(model => model.Address)
+                    </div>
+                </td>
+            </tr>
+        </table>
+        
+        @*<div class="radio-inline">
+            <label><input type="radio" name="exactmatch">Exact Match</label>
+        </div>
+        <div class="radio-inline">
+            <label><input type="radio" name="exactmatch" checked="">Non-Exact Match</label>
+        </div>*@
+
+        @Html.RadioButton("exactmatch", "Exact") Exact Match
+        @Html.RadioButton("exactmatch", "NonExact", new { @checked = "checked" }) Non-Exact Match
+        <br/>
+        <br />
+        <p>
+            <input type="submit" value="Search!" />
+        </p>
+    </fieldset>
+}
+
+@Html.Partial("SearchResult")
+
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+    <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" />
+    <script type="text/javascript" src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+
+    <script type="text/javascript">
+        //$(document).ready(function () {
+        function setDataTable() {
+        //$.ajaxComplete(function () {
+            $('#tblSearchResult').dataTable({ "aaSorting": []});
+        };
+    </script>
+}
