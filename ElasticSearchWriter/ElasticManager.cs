@@ -14,7 +14,7 @@ namespace ElasticSearchWriter
         public ElasticClient client;
 
         //public readonly string INDEXNAME_VOTERSEARCHER = "votersearcher";
-        public readonly string INDEXNAME_VOTERSEARCHER = "votersearcher5";
+        public readonly string INDEXNAME_VOTERSEARCHER = "votersearcher";
 
         public ElasticManager()
         {
