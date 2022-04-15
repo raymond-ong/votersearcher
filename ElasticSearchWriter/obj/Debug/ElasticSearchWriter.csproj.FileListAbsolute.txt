@@ -14,3 +14,33 @@ C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSear
 C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\MySql.Data.dll
 C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\ComelecDbLib.pdb
 C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ElasticSearchWriter\bin\Debug\ComelecDbLib.dll.config
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\ElasticSearchWriter.exe.config
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\ElasticSearchWriter.exe
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\ElasticSearchWriter.pdb
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\ComelecDbLib.dll
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\Elasticsearch.Net.dll
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\Nest.dll
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\Newtonsoft.Json.dll
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\MySql.Data.dll
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\ComelecDbLib.pdb
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\ComelecDbLib.dll.config
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\Elasticsearch.Net.xml
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\Nest.xml
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\Newtonsoft.Json.xml
+D:\Code\votersearcher\ElasticSearchWriter\obj\Debug\ElasticSearchWriter.csprojAssemblyReference.cache
+D:\Code\votersearcher\ElasticSearchWriter\obj\Debug\ElasticSearchWriter.csproj.CoreCompileInputs.cache
+D:\Code\votersearcher\ElasticSearchWriter\obj\Debug\ElasticSearchWriter.csproj.CopyComplete
+D:\Code\votersearcher\ElasticSearchWriter\obj\Debug\ElasticSearchWriter.exe
+D:\Code\votersearcher\ElasticSearchWriter\obj\Debug\ElasticSearchWriter.pdb
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\System.Buffers.dll
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\System.Memory.dll
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\System.Numerics.Vectors.dll
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\Elasticsearch.Net.pdb
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\Nest.pdb
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\System.Buffers.xml
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\System.Memory.xml
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\System.Numerics.Vectors.xml
+D:\Code\votersearcher\ElasticSearchWriter\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml

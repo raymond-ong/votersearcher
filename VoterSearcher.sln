@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComelecDbLib", "ComelecDbLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticSearchWriter", "ElasticSearchWriter\ElasticSearchWriter.csproj", "{AACA2B02-D790-49B5-A174-D8E94B9E1BBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleDecrypter", "ConsoleDecrypter\ConsoleDecrypter.csproj", "{7438B641-0A44-49C0-8BF9-E3D957F7FAC8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,11 +35,16 @@ Global
 		{AACA2B02-D790-49B5-A174-D8E94B9E1BBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AACA2B02-D790-49B5-A174-D8E94B9E1BBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AACA2B02-D790-49B5-A174-D8E94B9E1BBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7438B641-0A44-49C0-8BF9-E3D957F7FAC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7438B641-0A44-49C0-8BF9-E3D957F7FAC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7438B641-0A44-49C0-8BF9-E3D957F7FAC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7438B641-0A44-49C0-8BF9-E3D957F7FAC8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.0\lib\NET35;packages\Unity.Interception.2.1.505.0\lib\NET35;packages\EnterpriseLibrary.Common.5.0.505.0\lib\NET35;packages\EnterpriseLibrary.Security.5.0.505.0\lib\NET35
+		SolutionGuid = {A6D161D7-EB00-4CB3-84EF-6F5FA93981C3}
 	EndGlobalSection
 EndGlobal

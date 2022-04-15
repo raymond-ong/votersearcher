@@ -14,14 +14,19 @@ namespace ElasticSearchWriter
         public ElasticClient client;
 
         //public readonly string INDEXNAME_VOTERSEARCHER = "votersearcher";
-        public readonly string INDEXNAME_VOTERSEARCHER = "votersearcher2";
+        public readonly string INDEXNAME_VOTERSEARCHER = "votersearcher5";
 
         public ElasticManager()
         {
-            node = new Uri("http://localhost:9200");
+            node = new Uri("https://localhost:9200");
             settings = new ConnectionSettings(node);
             settings.DisableDirectStreaming(); // for debugging
+            settings.BasicAuthentication("elastic", "boXCa4HpoYl0f+9BKJMl");
             settings.DefaultIndex(INDEXNAME_VOTERSEARCHER);
+            settings.ServerCertificateValidationCallback((sender, cert, chain, error) =>
+                {
+                    return true; // bypass always
+                });
             client = new ElasticClient(settings);
         }
 
@@ -31,6 +36,7 @@ namespace ElasticSearchWriter
 
         public void CreateIndex()
         {
+            /* 5.x client
             IndexSettings indexSettings = new IndexSettings();
             indexSettings.NumberOfReplicas = 1;
             indexSettings.NumberOfShards = 1;
@@ -39,22 +45,30 @@ namespace ElasticSearchWriter
             {
                 Settings = indexSettings
             };
+            */
 
-            if (client.IndexExists(INDEXNAME_VOTERSEARCHER).Exists)
+            if (client.Indices.Exists(INDEXNAME_VOTERSEARCHER).Exists)
             {
                 Console.WriteLine("Index already exists...deleting existing index...");
-                client.DeleteIndex(INDEXNAME_VOTERSEARCHER);
+                client.Indices.Delete(INDEXNAME_VOTERSEARCHER);
                 //return;
             }
 
-            ICreateIndexResponse response = client.CreateIndex(INDEXNAME_VOTERSEARCHER, c => c
-            .InitializeUsing(indexState)
-            .Mappings(m => m.Map<VoterInfo>(mp => mp.AutoMap())));
+            CreateIndexResponse response = client.Indices
+                .Create(INDEXNAME_VOTERSEARCHER, s => s
+                    .Settings(se => se
+                        .NumberOfReplicas(1)
+                        .NumberOfShards(1)                        
+                        .Setting("merge.policy.merge_factor", "10")));
+
+            //IndexResponse response = client.Index(INDEXNAME_VOTERSEARCHER, c => c
+            //.InitializeUsing(indexState)
+            //.Mappings(m => m.Map<VoterInfo>(mp => mp.AutoMap())));
         }
 
         public void CreateNewVoter(VoterInfo voter)
         {
-            client.Index(voter);
+            client.Index(voter, idx => idx.Index(INDEXNAME_VOTERSEARCHER));
         }
         public void CreateNewVoterBulk(IEnumerable<VoterInfo> voters)
         {

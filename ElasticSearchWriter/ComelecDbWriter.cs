@@ -7,7 +7,7 @@ using ComelecDbLib;
 
 namespace ElasticSearchWriter
 {
-    class ComelecDbWriter
+    public class ComelecDbWriter
     {
         ComelecDbAccessor mysqlDbAccess = null;
         ElasticManager emgr = new ElasticManager();
@@ -39,6 +39,11 @@ namespace ElasticSearchWriter
             }
 
             mysqlDbAccess.Disconnect();
+        }
+
+        public void WriteBulkToElasticDb(List<VoterInfo> listDbVoters)
+        {
+            emgr.CreateNewVoterBulk(listDbVoters);
         }
 
         internal void PopulateElasticDbBulk()

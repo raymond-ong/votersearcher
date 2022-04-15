@@ -11,20 +11,20 @@ namespace ElasticSearchWriter
         static void Main(string[] args)
         {
             ElasticManager emgr = new ElasticManager();
-            //emgr.CreateIndex();
+            emgr.CreateIndex();
 
-            //VoterInfo newVoter = new VoterInfo
-            //{
-            //    Lastname = "Lee",
-            //    Firstname = "Kuan Yew",
-            //    Maternalname = "Z",
-            //    Address = "Singapore",
-            //    CivilStatus = "M",
-            //    DateOfBirth = DateTime.Parse("1935-01-01"),
-            //    Sex = "M",
-            //};
+            VoterInfo newVoter = new VoterInfo
+            {
+                Lastname = "Lee",
+                Firstname = "Kuan Yew",
+                Maternalname = "Z",
+                Address = "Singapore",
+                CivilStatus = "M",
+                DateOfBirth = DateTime.Parse("1935-01-01"),
+                Sex = "M",
+            };
 
-            //emgr.CreateNewVoter(newVoter);
+            emgr.CreateNewVoter(newVoter);
 
             //VoterInfo query = new VoterInfo
             //{
@@ -33,7 +33,7 @@ namespace ElasticSearchWriter
 
             //emgr.Query(null);
             //emgr.Query2();
-            emgr.Query3("raymond", "", "ong", "");
+            //emgr.Query3("raymond", "", "ong", "");
             //ComelecDbWriter dbWriter = new ComelecDbWriter();
             //dbWriter.PopulateElasticDb();
             //dbWriter.PopulateElasticDbBulk();

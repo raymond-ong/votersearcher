@@ -106,6 +106,11 @@ namespace ComelecDbLib
             }
         }
 
+        public string DecryptWithSingleQuotes(string cipherText)
+        {
+            return Decrypt(cipherText.Trim('\''));
+        }
+
         public string Decrypt(string cipherText)
         {
             byte[] cipherTextBytes = Convert.FromBase64String(cipherText);

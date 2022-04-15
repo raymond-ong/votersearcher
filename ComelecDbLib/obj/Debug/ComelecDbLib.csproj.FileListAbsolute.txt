@@ -20,3 +20,27 @@ C:\Users\Raymond\documents\visual studio 2013\Projects\VoterSearcher\ComelecDbLi
 C:\Users\Raymond\documents\visual studio 2013\Projects\VoterSearcher\ComelecDbLib\obj\Debug\ComelecDbLib.dll
 C:\Users\Raymond\documents\visual studio 2013\Projects\VoterSearcher\ComelecDbLib\obj\Debug\ComelecDbLib.pdb
 C:\Users\Raymond\Documents\Visual Studio 2013\Projects\VoterSearcher\ComelecDbLib\obj\Debug\ComelecDbLib.csprojResolveAssemblyReference.cache
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\ComelecDbLib.dll.config
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\ComelecDbLib.dll
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\ComelecDbLib.pdb
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.dll
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.dll
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\MySql.Data.dll
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Security.xml
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.Unity.xml
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.Unity.Interception.xml
+D:\Code\votersearcher\ComelecDbLib\bin\Debug\Microsoft.Practices.Unity.Interception.Configuration.xml
+D:\Code\votersearcher\ComelecDbLib\obj\Debug\ComelecDbLib.csprojAssemblyReference.cache
+D:\Code\votersearcher\ComelecDbLib\obj\Debug\ComelecDbLib.csproj.CoreCompileInputs.cache
+D:\Code\votersearcher\ComelecDbLib\obj\Debug\ComelecDbLib.csproj.CopyComplete
+D:\Code\votersearcher\ComelecDbLib\obj\Debug\ComelecDbLib.dll
+D:\Code\votersearcher\ComelecDbLib\obj\Debug\ComelecDbLib.pdb

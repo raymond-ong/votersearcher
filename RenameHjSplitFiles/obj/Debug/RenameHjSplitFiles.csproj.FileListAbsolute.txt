@@ -3,3 +3,10 @@ C:\Users\Raymond\documents\visual studio 2013\Projects\VoterSearcher\RenameHjSpl
 C:\Users\Raymond\documents\visual studio 2013\Projects\VoterSearcher\RenameHjSplitFiles\bin\Debug\RenameHjSplitFiles.pdb
 C:\Users\Raymond\documents\visual studio 2013\Projects\VoterSearcher\RenameHjSplitFiles\obj\Debug\RenameHjSplitFiles.exe
 C:\Users\Raymond\documents\visual studio 2013\Projects\VoterSearcher\RenameHjSplitFiles\obj\Debug\RenameHjSplitFiles.pdb
+D:\Code\votersearcher\RenameHjSplitFiles\bin\Debug\RenameHjSplitFiles.exe.config
+D:\Code\votersearcher\RenameHjSplitFiles\bin\Debug\RenameHjSplitFiles.exe
+D:\Code\votersearcher\RenameHjSplitFiles\bin\Debug\RenameHjSplitFiles.pdb
+D:\Code\votersearcher\RenameHjSplitFiles\obj\Debug\RenameHjSplitFiles.csprojAssemblyReference.cache
+D:\Code\votersearcher\RenameHjSplitFiles\obj\Debug\RenameHjSplitFiles.csproj.CoreCompileInputs.cache
+D:\Code\votersearcher\RenameHjSplitFiles\obj\Debug\RenameHjSplitFiles.exe
+D:\Code\votersearcher\RenameHjSplitFiles\obj\Debug\RenameHjSplitFiles.pdb
